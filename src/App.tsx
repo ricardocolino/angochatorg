@@ -98,7 +98,7 @@ export default function App() {
   const t = translations[lang];
 
   // Substitua esta URL pela URL da sua imagem de símbolo
-  const LOGO_URL = "https://picsum.photos/seed/angochat-logo/100/100";
+  const LOGO_URL = "icon.jpg";
   // Substitua pela URL real do seu arquivo APK
   const APK_URL = "#";
 
