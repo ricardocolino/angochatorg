@@ -98,7 +98,7 @@ export default function App() {
   const t = translations[lang];
 
   // Substitua esta URL pela URL da sua imagem de símbolo
-  const LOGO_URL = "/icon.png"; 
+  const LOGO_URL = "https://pub-787d908cd4db458da923c4d16758ba46.r2.dev/stories/61c12079-8150-4e15-875d-22942eb8bde9-1774470743961.png"; 
   // Substitua pela URL real do seu arquivo APK
   const APK_URL = "#";
 
