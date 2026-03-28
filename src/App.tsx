@@ -100,7 +100,7 @@ export default function App() {
   // Substitua esta URL pela URL da sua imagem de símbolo
   const LOGO_URL = "https://pub-787d908cd4db458da923c4d16758ba46.r2.dev/stories/61c12079-8150-4e15-875d-22942eb8bde9-1774470743961.png"; 
   // Substitua pela URL real do seu arquivo APK
-  const APK_URL = "#";
+  const APK_URL = "https://api.codemagic.io/artifacts/5b586a8f-77b9-4329-9070-e25a4149bcac/fb26d1e3-9931-469d-80e3-32f76ab3f698/app-debug.apk";
 
   const faqs = [
     {
