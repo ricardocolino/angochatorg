@@ -27,7 +27,7 @@ function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-const LOGO_URL = "https://pub-787d908cd4db458da923c4d16758ba46.r2.dev/icon.png";
+const LOGO_URL = "https://pub-787d908cd4db458da923c4d16758ba46.r2.dev/AZ2shvqMGatbXorVpj6MQw-AZ2shvqMbTFVceCt_p0PGQ_20260420_211507_0000.mp4";
 const APK_URL = "https://pub-787d908cd4db458da923c4d16758ba46.r2.dev/angochat1.apk";
 
 const translations = {
@@ -166,9 +166,16 @@ function HomePage({ t }: any) {
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          className="w-32 h-32 md:w-40 md:h-40 bg-white rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.08)] mx-auto mb-10 flex items-center justify-center p-4 border border-slate-50 overflow-hidden"
+          className="w-32 h-32 md:w-40 md:h-40 bg-white rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.08)] mx-auto mb-10 flex items-center justify-center border border-slate-50 overflow-hidden"
         >
-           <img src={LOGO_URL} alt="Logo" className="w-full h-full object-cover" />
+           <video 
+             src={LOGO_URL} 
+             autoPlay 
+             loop 
+             muted 
+             playsInline 
+             className="w-full h-full object-cover"
+           />
         </motion.div>
 
         <motion.div
