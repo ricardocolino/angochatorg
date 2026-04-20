@@ -92,7 +92,7 @@ export default function App() {
   }, []);
 
   const t = translations[lang];
-  const LOGO_URL = "/ícon.png";
+  const LOGO_URL = "https://pub-787d908cd4db458da923c4d16758ba46.r2.dev/icon.png";
   const APK_URL = "#";
 
   const faqs = [
