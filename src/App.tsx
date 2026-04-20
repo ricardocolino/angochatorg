@@ -33,7 +33,7 @@ const APK_URL = "https://pub-787d908cd4db458da923c4d16758ba46.r2.dev/angochat1.a
 const translations = {
   pt: {
     nav: { home: "Início", tutorial: "Apps", faq: "FAQ", download: "Baixar" },
-    hero: { badge: "Versão 1.0 Já Disponível", title: "AngoChat", highlight: "Assista. Partilhe. Ganhe.", sub: "Uma plataforma poderosa de partilha de vídeos e lives ao vivo onde você ganha por cada minuto. Rápido, social e rentável.", cta: "Baixar AngoChat para Android", free: "Seguro & Grátis" },
+    hero: { badge: "Versão 1.0 Já Disponível", title: "AngoChat", highlight: "Assista. Partilhe. Ganhe.", sub: "Uma plataforma poderosa de partilha de vídeos e lives ao vivo", cta: "Baixar AngoChat para Android", free: "Seguro & Grátis" },
     tutorial: { title: "Como Começar", sub: "Veja como é simples instalar.", play: "ASSISTIR VÍDEO" },
     faq: { title: "Perguntas Frequentes", sub: "Tudo o que você precisa saber." },
     cta: { title: "Comece agora", sub: "Junte-se à revolução da comunicação móvel.", btn: "Instalar APK" },
@@ -42,7 +42,7 @@ const translations = {
   },
   en: {
     nav: { home: "Home", tutorial: "Apps", faq: "FAQ", download: "Download" },
-    hero: { badge: "Version 1.0 Now Available", title: "AngoChat", highlight: "Watch. Share. Earn.", sub: "A powerful video sharing and live streaming platform where you earn for every minute. Fast, social, and profitable.", cta: "Download AngoChat for Android", free: "Safe & Free" },
+    hero: { badge: "Version 1.0 Now Available", title: "AngoChat", highlight: "Watch. Share. Earn.", sub: "A powerful video sharing and live streaming platform", cta: "Download AngoChat for Android", free: "Safe & Free" },
     tutorial: { title: "How it Works", sub: "Watch how simple it is to start.", play: "WATCH VIDEO" },
     faq: { title: "FAQ", sub: "Everything you need to know." },
     cta: { title: "Get started", sub: "Join the mobile communication revolution.", btn: "Install APK" },
@@ -51,7 +51,7 @@ const translations = {
   },
   ru: {
     nav: { home: "Главная", tutorial: "Apps", faq: "FAQ", download: "Скачать" },
-    hero: { badge: "Версия 1.0 уже доступна", title: "AngoChat", highlight: "Смотри. Делись. Зарабатывай.", sub: "Мощная платформа для обмена видео и прямых трансляций, где вы зарабатываете каждую минуту. Быстро, социально и выгодно.", cta: "Скачать AngoChat для Android", free: "Безопасно и бесплатно" },
+    hero: { badge: "Версия 1.0 уже доступна", title: "AngoChat", highlight: "Смотри. Делись. Зарабатывай.", sub: "Мощная платформа для обмена видео и прямых трансляций", cta: "Скачать AngoChat для Android", free: "Безопасно и бесплатно" },
     tutorial: { title: "Как это работает", sub: "Посмотрите, как легко начать.", play: "СМОТРЕТЬ ВИДЕО" },
     faq: { title: "FAQ", sub: "Все, что вам нужно знать." },
     cta: { title: "Начать сейчас", sub: "Присоединяйтесь к мобильной революции.", btn: "Установить APK" },
@@ -60,12 +60,30 @@ const translations = {
   },
   zh: {
     nav: { home: "首页", tutorial: "Apps", faq: "常见问题", download: "下载" },
-    hero: { badge: "1.0 版本现已发布", title: "AngoChat", highlight: "观看。分享。盈收。", sub: "一个功能强大的视频分享和直播平台，每一分钟都在为您创造价值。快速、社交且赚钱。", cta: "下载 Android 版 AngoChat", free: "安全且免费" },
+    hero: { badge: "1.0 版本现已发布", title: "AngoChat", highlight: "观看。分享。盈收。", sub: "一个功能强大的视频分享和直播平台", cta: "下载 Android 版 AngoChat", free: "安全且免费" },
     tutorial: { title: "操作指南", sub: "看看开始有多简单。", play: "观看视频" },
     faq: { title: "常见问题", sub: "您想知道的一切。" },
     cta: { title: "立即开始", sub: "加入移动通讯革命。", btn: "安装 APK" },
     airtm: "🌍 Airtm 全球支付",
     footer: { privacy: "隐私", terms: "条款", support: "支持", rights: "© 2026 AngoChat Tech。" }
+  },
+  es: {
+    nav: { home: "Inicio", tutorial: "Apps", faq: "FAQ", download: "Descargar" },
+    hero: { badge: "Versión 1.0 Ya Disponible", title: "AngoChat", highlight: "Mira. Comparte. Gana.", sub: "Una potente plataforma para compartir vídeos y hacer streams en vivo", cta: "Descargar AngoChat para Android", free: "Seguro y Gratis" },
+    tutorial: { title: "Cómo Empezar", sub: "Mira lo sencillo que é instalarlo.", play: "VER VIDEO" },
+    faq: { title: "Preguntas Frecuentes", sub: "Todo lo que necesitas saber." },
+    cta: { title: "Empieza ahora", sub: "Únete a la revolución de la comunicación móvil.", btn: "Instalar APK" },
+    airtm: "🌍 Dinero Global vía Airtm",
+    footer: { privacy: "Privacidad", terms: "Términos", support: "Soporte", rights: "© 2026 AngoChat Tech." }
+  },
+  fr: {
+    nav: { home: "Accueil", tutorial: "Apps", faq: "FAQ", download: "Télécharger" },
+    hero: { badge: "Version 1.0 Disponible", title: "AngoChat", highlight: "Regardez. Partagez. Gagnez.", sub: "Une plateforme puissante de partage de vidéos et de lives en direct", cta: "Télécharger AngoChat pour Android", free: "Sûr & Gratuit" },
+    tutorial: { title: "Comment ça marche", sub: "Découvrez comment l'installer simplement.", play: "REGARDER LA VIDÉO" },
+    faq: { title: "FAQ", sub: "Tout ce que vous devez savoir." },
+    cta: { title: "Commencez maintenant", sub: "Rejoignez la révolution de la communication mobile.", btn: "Installer l'APK" },
+    airtm: "🌍 Argent Global via Airtm",
+    footer: { privacy: "Confidentialité", terms: "Conditions", support: "Support", rights: "© 2026 AngoChat Tech." }
   }
 };
 
@@ -86,9 +104,9 @@ function LayoutWrapper({ lang, setLang, t, children }: any) {
 
   return (
     <div className="min-h-screen bg-white font-sans text-slate-700 selection:bg-blue-100 selection:text-[#3390ec] flex flex-col">
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-slate-100 shadow-sm overflow-x-auto no-scrollbar">
-        <div className="max-w-4xl mx-auto flex items-center h-[54px] md:h-16">
-          <div className="flex items-center h-full px-4 gap-6 md:gap-10">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-slate-100 shadow-sm">
+        <div className="max-w-4xl mx-auto flex items-center h-[54px] md:h-16 px-4">
+          <div className="flex-grow flex items-center h-full gap-6 md:gap-10 overflow-x-auto no-scrollbar py-1">
             {Object.entries(t.nav).slice(0, 3).map(([key, value]) => {
               const route = key === 'home' ? '/' : key === 'tutorial' ? '/app' : `/${key}`;
               return (
@@ -110,12 +128,13 @@ function LayoutWrapper({ lang, setLang, t, children }: any) {
                 </Link>
               );
             })}
+          </div>
             
-            <div className="relative group flex items-center h-full">
-              <button 
-                onClick={() => setIsLangOpen(!isLangOpen)} 
-                className="flex items-center gap-1.5 text-[15px] md:text-base font-medium text-[#3390ec] uppercase pr-4"
-              >
+          <div className="relative group flex items-center h-full ml-4">
+            <button 
+              onClick={() => setIsLangOpen(!isLangOpen)} 
+              className="flex items-center gap-1.5 text-[15px] md:text-base font-medium text-[#3390ec] uppercase min-w-fit"
+            >
                 <Globe className="w-5 h-5" />
                 {lang}
                 <ChevronDown className={cn("w-3 h-3 transition-transform", isLangOpen && "rotate-180")} />
@@ -128,7 +147,7 @@ function LayoutWrapper({ lang, setLang, t, children }: any) {
                     exit={{ opacity: 0, y: 10 }}
                     className="absolute top-full right-0 mt-0 bg-white border border-slate-100 rounded-b-xl shadow-xl p-1 z-50 min-w-[120px]"
                   >
-                    {['pt', 'en', 'ru', 'zh'].map((l) => (
+                    {['en', 'pt', 'es', 'fr', 'ru', 'zh'].map((l) => (
                       <button key={l} onClick={() => { setLang(l as any); setIsLangOpen(false); }} className={cn("w-full px-4 py-3 text-left text-sm font-bold rounded-lg uppercase", lang === l ? "bg-blue-50 text-[#3390ec]" : "hover:bg-slate-50")}>{l}</button>
                     ))}
                   </motion.div>
@@ -136,23 +155,22 @@ function LayoutWrapper({ lang, setLang, t, children }: any) {
               </AnimatePresence>
             </div>
           </div>
-        </div>
       </nav>
 
       <main className="flex-grow pt-16">
         {children}
       </main>
 
-      <footer className="py-16 text-center border-t border-slate-100 mt-auto">
+      <footer className="py-8 text-center border-t border-slate-100 mt-auto">
          <div className="max-w-4xl mx-auto px-6">
-            <div className="flex flex-wrap justify-center gap-8 mb-8">
+            <div className="flex flex-wrap justify-center gap-4 mb-4">
                {Object.values(t.footer).slice(0, 3).map((link, i) => (
                  <a key={i} href="#" className="text-sm font-bold text-slate-500 hover:text-red-500 uppercase tracking-widest">{link as string}</a>
                ))}
             </div>
             <p className="text-xs font-bold text-slate-300 uppercase tracking-[0.4em]">{t.footer.rights}</p>
-          </div>
-        </footer>
+         </div>
+      </footer>
     </div>
   );
 }
@@ -166,7 +184,7 @@ function HomePage({ t }: any) {
         <motion.div
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
-          className="w-32 h-32 md:w-40 md:h-40 bg-white rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.08)] mx-auto mb-10 flex items-center justify-center border border-slate-50 overflow-hidden"
+          className="w-32 h-32 md:w-40 md:h-40 bg-white rounded-[2.5rem] mx-auto mb-10 flex items-center justify-center border border-slate-50 overflow-hidden"
         >
            <video 
              src={LOGO_URL} 
@@ -183,11 +201,12 @@ function HomePage({ t }: any) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-4 tracking-tight">{t.hero.title}</h1>
-          <p className="text-xl md:text-2xl font-semibold text-red-600 mb-8 uppercase tracking-widest">{t.hero.highlight}</p>
-          <p className="text-lg md:text-xl text-slate-500 mb-12 max-w-xl mx-auto leading-relaxed">
-            {t.hero.sub}
-          </p>
+          <div className="mb-12">
+            <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-4 tracking-tight">{t.hero.title}</h1>
+            <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto font-normal leading-relaxed">
+              {t.hero.sub}
+            </p>
+          </div>
 
           <div className="flex flex-col items-center gap-6">
             <a 
@@ -197,10 +216,6 @@ function HomePage({ t }: any) {
               <Download className="w-6 h-6" />
               {t.hero.cta}
             </a>
-            <p className="text-sm font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
-              <Smartphone className="w-4 h-4" />
-              {t.hero.free}
-            </p>
           </div>
         </motion.div>
       </div>
@@ -265,7 +280,7 @@ function FAQPage({ t, faqs }: any) {
 
   return (
     <section className="py-24 bg-[#f4f4f5] px-6">
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-2xl auto">
          <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-slate-900">{t.faq.title}</h2>
             <p className="text-slate-400 font-bold uppercase text-[11px] tracking-[0.2em] mt-3">{t.faq.sub}</p>
@@ -302,48 +317,89 @@ function FAQPage({ t, faqs }: any) {
   );
 }
 
-function ArrowUpRight(props: any) {
-  return (
-    <svg 
-      {...props} 
-      xmlns="http://www.w3.org/2000/svg" 
-      width="24" height="24" 
-      viewBox="0 0 24 24" 
-      fill="none" 
-      stroke="currentColor" 
-      strokeWidth="2" 
-      strokeLinecap="round" 
-      strokeLinejoin="round"
-    >
-      <path d="M7 7h10v10"/><path d="M7 17 17 7"/>
-    </svg>
-  );
-}
-
 // --- Main App ---
 
 export default function App() {
-  const [lang, setLang] = useState<'pt' | 'en' | 'ru' | 'zh'>('pt');
+  const [lang, setLang] = useState<'pt' | 'en' | 'ru' | 'zh' | 'fr' | 'es'>('en');
   const t = translations[lang];
 
   const faqs = [
     {
-      question: lang === 'pt' ? "O AngoChat é realmente seguro?" : lang === 'en' ? "Is AngoChat really safe?" : lang === 'ru' ? "AngoChat действительно безопасен?" : "AngoChat 真的安全吗？",
-      answer: lang === 'pt' ? "Sim. Utilizamos os mesmos padrões de segurança globais para garantir que sua comunicação e seus ganhos via Airtm estejam sempre protegidos." : lang === 'en' ? "Yes. We use the same global security standards to ensure your communication and Airtm earnings are always protected." : lang === 'ru' ? "Да. Мы используем мировые стандарты безопасности для защиты вашего общения и заработка через Airtm." : "是的。我们使用相同的全球安全标准来确保您的通讯和 Airtm 收入始终受到保护。"
+      question: {
+        en: "Is AngoChat really safe?",
+        pt: "O AngoChat é realmente seguro?",
+        ru: "AngoChat действительно безопасен?",
+        zh: "AngoChat 真的安全吗？",
+        es: "¿Es AngoChat realmente seguro?",
+        fr: "AngoChat est-il vraiment sûr ?"
+      },
+      answer: {
+        en: "Yes. We use the same global security standards to ensure your communication and Airtm earnings are always protected.",
+        pt: "Sim. Utilizamos os mesmos padrões de segurança globais para garantir que sua comunicação e seus ganhos via Airtm estejam sempre protegidos.",
+        ru: "Да. Мы используем мировые стандарты безопасности для защиты вашего общения и заработка через Airtm.",
+        zh: "是的。我们使用相同的全球安全标准来确保您的通讯和 Airtm 收入始终受到保护。",
+        es: "Sí. Utilizamos los mismos estándares de seguridad globales para garantizar que tu comunicación y tus ganancias de Airtm estén siempre protegidas.",
+        fr: "Oui. Nous utilisons les mêmes normes de sécurité mondiales pour garantir que vos communications et vos gains Airtm sont toujours protégés."
+      }
     },
     {
-       question: lang === 'pt' ? "O que é Monetização em Tempo Real?" : lang === 'en' ? "What is Real-time Monetization?" : lang === 'ru' ? "Что такое монетизация в реальном времени?" : "什么是实时变现？",
-       answer: lang === 'pt' ? "No AngoChat, você ganha por cada minuto de uso. Seu tempo é convertido diretamente em valor real." : lang === 'en' ? "In AngoChat, you earn for every minute of use. Your time is directly converted into real value." : lang === 'ru' ? "В AngoChat вы зарабатываете за каждую минуту использования. Ваше время напрямую конвертируется в реальную ценность." : "在 AngoChat 中，您每使用一分钟就能获得收益。您的时间直接转化为实际价值。"
+      question: {
+        en: "What is Real-time Monetization?",
+        pt: "O que é Monetização em Tempo Real?",
+        ru: "Что такое монетизация в реальном времени?",
+        zh: "什么是实时变现？",
+        es: "¿Qué es la monetización en tiempo real?",
+        fr: "Qu'est-ce que la monétisation en temps réel ?"
+      },
+      answer: {
+        en: "In AngoChat, you earn for every minute of use. Your time is directly converted into real value.",
+        pt: "No AngoChat, você ganha por cada minuto de uso. Seu tempo é convertido diretamente em valor real.",
+        ru: "В AngoChat вы зарабатываете за каждую минуту использования. Ваше время напрямую конвертируется в реальную ценность.",
+        zh: "在 AngoChat 中，您每使用一分钟就能获得收益。您的时间直接转化为实际价值。",
+        es: "En AngoChat, ganas por cada minuto de uso. Tu tiempo se convierte directamente en valor real.",
+        fr: "Dans AngoChat, vous gagnez pour chaque minute d'utilisation. Votre temps est directement converti en valeur réelle."
+      }
     },
     {
-      question: lang === 'pt' ? "Como funcionam os Pagamentos Instantâneos?" : lang === 'en' ? "How do instant payouts work?" : lang === 'ru' ? "Как работают мгновенные выплаты?" : "即时支付如何运作？",
-      answer: lang === 'pt' ? "Seus ganhos podem ser transferidos instantaneamente para sua conta Airtm a qualquer momento." : lang === 'en' ? "Your earnings can be instantly transferred to your Airtm account at any time." : lang === 'ru' ? "Ваш заработок может быть мгновенно переведен на ваш счет Airtm в любое время." : "您的收入可以随时立即转入您的 Airtm 账户。"
+      question: {
+        en: "How do instant payouts work?",
+        pt: "Como funcionam os Pagamentos Instantâneos?",
+        ru: "Как работают мгновенные выплаты?",
+        zh: "即时支付如何运作？",
+        es: "¿Cómo funcionas los pagos instantáneos?",
+        fr: "Comment fonctionnent les paiements instantanés ?"
+      },
+      answer: {
+        en: "Your earnings can be instantly transferred to your Airtm account at any time.",
+        pt: "Seus ganhos podem ser transferidos instantaneamente para sua conta Airtm a qualquer momento.",
+        ru: "Ваш заработок может быть мгновенно переведен на ваш счет Airtm в любое время.",
+        zh: "您的收入可以随时立即转入您的 Airtm 账户。",
+        es: "Tus ganancias se pueden transferir instantáneamente a tu cuenta de Airtm en cualquier momento.",
+        fr: "Vos gains peuvent être instantanément transférés sur votre compte Airtm à tout moment."
+      }
     },
     {
-      question: lang === 'pt' ? "É fácil de instalar?" : lang === 'en' ? "Is it easy to install?" : lang === 'ru' ? "Легко ли установить?" : "安装方便吗？",
-      answer: lang === 'pt' ? "Sim! Basta baixar o APK oficial aqui no site e seguir as instruções simples de instalação no seu Android." : lang === 'en' ? "Yes! Just download the official APK here on the site and follow the simple installation instructions on your Android." : lang === 'ru' ? "Да! Просто скачайте официальный APK здесь на сайте и следуйте простым инструкциям по установке на вашем Android." : "是的！只需在网站上下载官方 APK，并按照 Android 上的简单安装说明操作即可。"
+      question: {
+        en: "Is it easy to install?",
+        pt: "É fácil de instalar?",
+        ru: "Легко ли установить?",
+        zh: "安装方便吗？",
+        es: "¿Es fácil de instalar?",
+        fr: "Est-ce facile à installer ?"
+      },
+      answer: {
+        en: "Yes! Just download the official APK here on the site and follow the simple installation instructions on your Android.",
+        pt: "Sim! Basta baixar o APK oficial aqui no site e seguir as instruções simples de instalação no seu Android.",
+        ru: "Да! Просто скачайте официальный APK здесь на сайте и следуйте простым инструкциям по установке на вашем Android.",
+        zh: "是的！只需在网站上下载官方 APK，并按照 Android 上的简单安装说明操作即可。",
+        es: "¡Sí! Solo descarga el APK oficial aquí en el sitio y sigue las sencillas instrucciones de instalación en tu Android.",
+        fr: "Oui ! Il vous suffit de télécharger l'APK officiel ici sur le site et de suivre les instructions d'installation simples sur votre Android."
+      }
     }
-  ];
+  ].map(faq => ({
+    question: (faq.question as any)[lang],
+    answer: (faq.answer as any)[lang]
+  }));
 
   return (
     <Router>
